@@ -13,6 +13,9 @@ for (let i=0; i < numberOfDrumButtons; i++){
     });
 }
 
+
+//keydown is a event for our keyboard buttons
+
 document.addEventListener("keydown", function(event){
 
     makeSound(event.key);
@@ -20,6 +23,9 @@ document.addEventListener("keydown", function(event){
     buttonAnimation(event.key)
 
 });
+
+
+// For sound
 
 
     function makeSound(key){
@@ -66,6 +72,8 @@ document.addEventListener("keydown", function(event){
         }
 
     }
+
+    //Button Animination
 
     function buttonAnimation(currentKey){
 
